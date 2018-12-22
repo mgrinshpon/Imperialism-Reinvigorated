@@ -1,5 +1,5 @@
-name="[1.27] Imperialism Reinvigorated: Unstable Revived"
-archive="mod/!imperialism_dev.zip"
+name="[1.28] Imperialism Reinvigorated: Github/Home Development"
+path="mod/!imperialism_dev"
 replace_path="missions"
 replace_path="decisions"
 replace_path="history/provinces"
@@ -19,4 +19,4 @@ tags={
 	"Graphics"
 }
 picture="reinvigorationpic.jpeg"
-supported_version="1.27.*.*"
+supported_version="1.28.*.*"

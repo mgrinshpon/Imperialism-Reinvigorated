@@ -1,0 +1,7 @@
+Open CMD as administrator 
+Edit Command below for corrections to where you stored the github synced folder
+Paste into cmd and it should set up symlink instantly
+
+For the .mod file IR_Github.mod (Saves Conflicting with names on SteamWorkshop Version) copy it into your mod folder as with symlinking eu4 does not pick it up
+
+mklink /d "C:\Users\minid\Documents\Paradox Interactive\Europa Universalis IV\mod\!improvedhistory_dev" "C:\Users\minid\Documents\GitHub\Imperialism-Reinvigorated\!improvedhistory_dev
