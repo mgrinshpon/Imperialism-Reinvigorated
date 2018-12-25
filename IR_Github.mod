@@ -1,4 +1,4 @@
-name="[1.28] Imperialism Reinvigorated: Github/Home Development"
+name="[1.28] Imperialism Reinvigorated: Github Development"
 path="mod/!improvedhistory_dev"
 replace_path="missions"
 replace_path="decisions"
