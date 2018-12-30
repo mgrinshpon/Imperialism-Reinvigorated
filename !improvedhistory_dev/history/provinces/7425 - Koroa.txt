@@ -23,10 +23,10 @@ discovered_by = north_american
 	add_core = K4R
 	owner = K4R
 	controller = K4R
-	is_city = yes 
+	is_city = yes
 	culture = koroa
 	trade_goods = salt
-}#migration of the tunica. Marquette and Joliet found Akoroa town upriver from the Quapaw. 
+}#migration of the tunica. Marquette and Joliet found Akoroa town upriver from the Quapaw.
 1720.1.1 = {
 	remove_core = K4R
 	owner = ---
