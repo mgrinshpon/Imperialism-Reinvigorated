@@ -2,11 +2,9 @@ government = monarchy
 add_government_reform = daimyo
 government_rank = 1
 primary_culture = togoku
-add_accepted_culture = japanese
 religion = shinto
 technology_group = chinese
-capital = 4187
-historical_rival = NHT
+capital = 1837	# Etchu
 
 1335.1.1 = { 
 	monarch = {
@@ -176,8 +174,6 @@ historical_rival = NHT
 		mil = 3
 	}
 }
-
-1480.1.1 = { capital = 1832 } #Yamato
 
 1493.5.1 = {
 	monarch = {

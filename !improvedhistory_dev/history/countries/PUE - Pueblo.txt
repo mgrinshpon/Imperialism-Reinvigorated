@@ -1,9 +1,9 @@
-government = native 
-government_rank = 1
-primary_culture = keres
+government = native government_rank = 1
+add_government_reform = sedentary_society
+primary_culture = pueblo
 religion = totemism
 technology_group = north_american
-capital = 2495
+capital = 880 # Pueblo
 
 
 1444.11.11 = {

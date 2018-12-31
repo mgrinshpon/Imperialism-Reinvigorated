@@ -1,9 +1,10 @@
 government = native
+add_government_reform = migratory_society
 government_rank = 1
-primary_culture = plateau_penutian
+primary_culture = sahaptian
 religion = totemism
 technology_group = north_american
-capital = 2019
+capital = 2019 #Nimiipu
 
 
 1444.11.11 = {

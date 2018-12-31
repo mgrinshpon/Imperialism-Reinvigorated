@@ -1,8 +1,9 @@
 government = native government_rank = 1
+add_government_reform = sedentary_society
 primary_culture = piman
 religion = totemism
 technology_group = north_american
-capital = 862
+capital = 877 # Pima
 
 
 1444.11.11 = {

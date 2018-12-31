@@ -1,11 +1,10 @@
 government = native
+add_government_reform = sedentary_society
 government_rank = 1
 primary_culture = huron
 religion = totemism
 technology_group = north_american
-capital = 5037	# Huron
-historical_friend = YZI
-historical_rival = IRO
+capital = 988	# Huron
 
 
 1399.1.1 = {
@@ -14,6 +13,14 @@ historical_rival = IRO
 		adm = 2
 		dip = 2
 		mil = 4
+	}
+}
+
+1470.1.1 = {
+	add_country_modifier = {
+		name = nhs2_n_r_c
+		duration = 10950
+		hidden = yes
 	}
 }
 
@@ -41,7 +48,7 @@ historical_rival = IRO
 		adm = 0
 		dip = 2
 		mil = 5
-		leader = {	name = "Adario"                	type = general	fire = 3	shock = 1	manuever = 3	siege = 1}
+		leader = {	name = "Adario"                	type = general	fire = 3	shock = 1	manuever = 3	siege = 1 }
 	}
 }
 

@@ -1,0 +1,260 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+
+nhs_old_gods_bonus = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	trigger = {
+		owner = {
+			OR = {
+				religion = pantheon_worship
+				religion = aztlan_worship
+			}
+		}
+	}
+	
+	local_missionary_strength = 0.02
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	on_deactivation = {
+		
+	}
+
+}
+
+nhs_gibraltar_mod = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	trigger = {
+		owner = {
+			OR = {
+				nhs_is_elysia_late = yes
+				nhs_condition_all_ely_with_if = { KOMANDA = is_subject_of }
+			}
+		}
+	}
+	province_trade_power_value = 10
+	local_sailors = 500
+	local_ship_repair = 0.5
+	ship_recruit_speed = -0.25
+	fort_level = 1
+	local_defensiveness = 0.5
+	local_hostile_attrition = 3
+	#Province scope
+	on_activation = {
+	
+	}
+	on_deactivation = {
+		
+	}
+}
+
+religious_center_pantheon = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		religion = pantheon_worship
+	}
+
+	local_missionary_strength = -0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+		
+	}
+}
+
+religious_center_aztlan = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		religion = aztlan_worship
+	}
+
+	local_missionary_strength = -0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+		
+	}
+}
+
+religious_center_elysian_orthodox = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		religion = elysian_orthodoxy
+	}
+
+	local_missionary_strength = -0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+		
+	}
+}
+
+nhs_inward_focus_build_cost_reduction = {
+	potential = {
+		always = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			custom_trigger_tooltip = {
+				tooltip = nhs_completed_overlord_inward_focus_comp_tt
+				OR = {
+					has_country_flag = nhs_completed_inward_focus
+					overlord = {
+						has_country_flag = nhs_completed_inward_focus
+					}
+				}
+			}
+			nhs_gets_inward_modifier = yes
+		}
+	}
+
+	local_build_cost = -0.15
+	local_build_time = -0.15
+	local_colonial_growth = 10
+	
+	picture = "build_cost"
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+nhs_inward_focus_development_red = {
+	potential = {
+		always = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			custom_trigger_tooltip = {
+				tooltip = development_of_the_true_homeland_comp_overlord_tt
+				OR = {
+					has_country_flag = development_of_the_true_homeland_done
+					overlord = {
+						has_country_flag = development_of_the_true_homeland_done
+					}
+				}
+			}
+			nhs_gets_inward_modifier = yes
+		}
+	}
+
+	local_build_cost = -0.15
+	local_build_time = -0.15
+	local_development_cost = -0.1
+	local_missionary_strength = 0.02
+	local_culture_conversion_cost = -0.25
+	local_colonial_growth = 20
+	
+	picture = "development_cost"
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+nhs_nhs_the_city_of_cities_bonus = {
+	potential = {
+		always = yes
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		owner = {
+			custom_trigger_tooltip = {
+				tooltip = nhs_the_city_of_cities_comp_overlord_tt
+				OR = {
+					has_country_flag = nhs_the_city_of_cities_done
+					overlord = {
+						has_country_flag = nhs_the_city_of_cities_done
+					}
+				}
+			}
+			nhs_gets_inward_modifier = yes
+		}
+	}
+
+	local_build_cost = -0.15
+	local_build_time = -0.15
+	local_development_cost = -0.1
+	allowed_num_of_buildings = 1
+	local_missionary_strength = 0.02
+	local_culture_conversion_cost = -0.25
+	local_colonial_growth = 25
+	
+	picture = "allowed_num_of_buildings"
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}

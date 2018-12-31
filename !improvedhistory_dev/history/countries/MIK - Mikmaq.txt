@@ -1,8 +1,14 @@
-government = native government_rank = 1
+government = native
+add_government_reform = migratory_society
+government_rank = 1
 primary_culture = mikmaq
 religion = totemism
 technology_group = north_american
-capital = 984 # Windsor
+historical_friend = XXK
+historical_friend = XXL
+historical_friend = XXM
+historical_friend = ABE
+capital = 2568
 
 
 1444.11.11 = {

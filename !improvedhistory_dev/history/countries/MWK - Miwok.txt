@@ -1,9 +1,10 @@
 government = native
+add_government_reform = migratory_society
 government_rank = 1
-primary_culture = utian
+primary_culture = yokuts
 religion = totemism
 technology_group = north_american
-capital = 866
+capital = 4668
 
 
 1444.11.11 = {

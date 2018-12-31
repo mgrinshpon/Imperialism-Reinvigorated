@@ -1,9 +1,11 @@
 government = native
+add_government_reform = sedentary_society
 government_rank = 1
 primary_culture = cherokee
 religion = totemism
 technology_group = north_american
-capital = 7453 #keowee
+capital = 936 # Cheraw
+
 
 1399.1.1 = {
 	monarch = {
@@ -12,6 +14,12 @@ capital = 7453 #keowee
 		dip = 2
 		mil = 2
 	}
+}
+
+1470.1.1 = {
+	government = republic
+	add_government_reform = native_council_after
+	technology_group = hellenised_american
 }
 
 1700.1.1 = {
@@ -47,17 +55,9 @@ capital = 7453 #keowee
 		adm = 1
 		dip = 1
 		mil = 5
-	}
-	leader = { 
-		name = "Ocanostata" 
-		type = general 
-		fire = 3 
-		shock = 1 
-		manuever = 3 
-		siege = 1 
+		leader = { name = "Ocanostata" type = general fire = 3 shock = 1 manuever = 3 siege = 1 }
 	}
 }
-
 
 1760.1.1 = {
 	monarch = {

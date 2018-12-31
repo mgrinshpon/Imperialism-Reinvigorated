@@ -1,10 +1,10 @@
 government = native
+add_government_reform = migratory_society
 government_rank = 1
-primary_culture = ktunaxa
+primary_culture = salish
 religion = totemism
 technology_group = north_american
-capital = 4947
-historical_friend = YYI
+capital = 2003	# Ktunaxa
 
 
 1444.11.11 = {

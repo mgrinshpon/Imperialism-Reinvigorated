@@ -1,9 +1,10 @@
 government = native
+add_government_reform = migratory_society
 government_rank = 1
 primary_culture = chipewyan
 religion = totemism
 technology_group = north_american
-capital = 5070
+capital = 1006 # Chipewyan
 
 
 1444.11.11 = {

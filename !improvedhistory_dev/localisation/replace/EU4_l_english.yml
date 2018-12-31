@@ -1,0 +1,32 @@
+﻿l_english:
+ st_lawrence:0 "Erikson Gulf"
+ james_bay:0 "Thorfinn Bay"
+ chesapeake_bay:0 "Bay of Elysia"
+ carribean_trade:0 "Kykladian Isles"
+ mississippi_river:0 "Andronika"
+ california:0 "Thulea & Hesperidia"
+ short_colonial_canada:0 "Vinland"
+ colonial_canada:0 "Colonial Vinland"
+ short_colonial_eastern_america:0 "Elysian Coast"
+ colonial_eastern_america:0 "Colonial Elysian Coast"
+ short_colonial_louisiana:0 "Andronika & Scythia"
+ colonial_louisiana:0 "Colonial Andronika & Scythia"
+ short_colonial_california:0 "Hesperidia"
+ colonial_california:0 "Colonial Hesperidia"
+ short_colonial_alaska:0 "Thulea"
+ colonial_alaska:0 "Colonial Thulea"
+ colonial_the_carribean:0 "Colonial Kykladian Isles"
+ short_colonial_colombia:0 "Kykladian Isles"
+ byzantine_parliament_name:0 "Senate"
+ elysian_group_parliament_name:0 "Senate"
+ spartakian_group_parliament_name:0 "Senate"
+ norse_g_parliament_name:0 "Althing"
+ NHS_parliament_name:0 "Senate"
+ ELY_parliament_name:0 "Senate"
+ TUR_parliament_name:0 "Mejlis"
+ 
+ STATISTS_DRO:1 "$NAME$"
+ MONARCHISTS_DRO:0 "$NAME$"
+ 
+ 
+ 

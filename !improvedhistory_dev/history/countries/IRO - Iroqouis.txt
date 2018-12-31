@@ -1,12 +1,14 @@
 government = native
+add_government_reform = sedentary_society
 government_rank = 1
 primary_culture = iroquois
 religion = totemism
+historical_friend = NHS
+historical_friend = ELY
 technology_group = north_american
 capital = 960 #Onondaga
-historical_friend = YZI
-historical_rival = HUR
 
+1480.1.1 = { religion = pantheon_worship }
 
 1399.1.1 = {
 	monarch = {
@@ -17,11 +19,44 @@ historical_rival = HUR
 	}
 }
 
-1533.1.1 = {
+1470.1.1 = {
+	government = republic
+	add_government_reform = native_council_after
+	technology_group = hellenised_american
+	religion = pantheon_worship
+}
+
+1475.4.9 = {
 	monarch = {
-		name = "White Wolf"
-		adm = 4
+		name = "Theyanoguin"
+                dynasty = "Arerhon"
+		birth_date = 1442.1.12
+                death_date = 1505.7.19
+                claim = 95
+		adm = 3
 		dip = 4
+		mil = 1
+	}
+	heir = {
+		name = "Tejonihokarawa"
+                dynasty = "Arerhon"
+		birth_date = 1472.1.12
+                death_date = 1531.7.19
+                claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1505.7.20 = {
+	monarch = {
+		name = "Tejonihokarawa"
+                dynasty = "Arerhon"
+		birth_date = 1472.1.12
+                death_date = 1531.7.19
+                claim = 95
+		adm = 4
+		dip = 3
 		mil = 3
 	}
 }
@@ -80,7 +115,7 @@ historical_rival = HUR
 	}
 }
 
-1765.1.1 = { leader = {	name = "Pontiac"	type = conquistador	fire = 3	shock = 5	manuever = 6	siege = 1	death_date = 1769.4.20 } }
+1765.1.1 = { leader = {	name = "Pontiac"	type = conquistador	 fire = 3	shock = 5	manuever = 6	siege = 1	death_date = 1769.4.20 } }
 
 1780.1.1 = {
 	monarch = {
@@ -90,7 +125,6 @@ historical_rival = HUR
 		mil = 0
 	}
 }
-
 1807.1.1 = {
 	monarch = {
 		name = "Ahyouwighs"
