@@ -1661,8 +1661,34 @@
  swiss_1_desc:0 "The swiss had trained halberdiers who defended their lands with long pikes against invaders."
  swiss_2:0 "Independence"
  swiss_2_desc:0 "The swiss have througout history been mostly independant from the major powers around them."
- 
- 
+
+# San Marino ideas 
+ SAN_ideas: "Sammarinese Ideas"
+ SAN_ideas_start: "Sammarinese Traditions"
+ SAN_ideas_bonus: "Sammarinese Ambitions"
+ SAN_the_arengo: "The Arengo"
+ SAN_the_arengo_desc: "Based on the Roman Senate, the Arengo is a governmental assembly composed of the heads of each influential family. We must reform our goverment while maintaining our thousand years of republican history."
+ SAN_mounte_titanio: ""
+ SAN_mounte_titanio_desc: ""
+  SAN_sammaranese_renaissance = {
+    technology_cost = -0.05
+    build_cost = -0.05
+  }
+  SAN_the_papal_alliance = {
+    papal_influence = 1
+    diplomatic_reputation = 1
+  }
+  SAN_fiercly_independent = {
+    enemy_core_creation = 0.5
+  }
+  SAN_tolerance_of_the_jews = {
+    tolerance_heathen = 2
+    religious_unity = 0.1
+  }
+  SAN_refuge_of_the_unification = {
+      prestige = 1
+  }
+
  #more will be added later, reusing vanilla stuff right now
  free_city_ideas:0 "Free City Ideas"
  free_city_ideas_start:0 "Free City Traditions"

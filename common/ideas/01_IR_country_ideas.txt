@@ -3130,3 +3130,44 @@ NED_ideas = {
 		fire_damage = 0.1
 	}
 }
+
+# Italy - San Marino
+SAN_ideas = {
+	start = {
+		production_efficiency = 0.1
+		stability_cost_modifier = -0.15 # A small, historically stable country
+	}
+	bonus = {
+		development_cost = -0.2 # One of the highest GDPs/capita of any country in the world
+	}
+	trigger = {
+		tag = SAN
+	}
+	free = yes		#will be added at load.
+
+	san_the_arengo = {
+		republican_tradition = 1
+	}
+	san_mounte_titanio = {
+		defensiveness = 0.25
+		fort_maintenance_modifier = -0.1
+	}
+	san_sammaranese_renaissance = {
+		technology_cost = -0.05
+		build_cost = -0.05
+	}
+	san_the_papal_alliance = {
+		papal_influence = 1
+		diplomatic_reputation = 1
+	}
+	san_fiercly_independent = {
+		enemy_core_creation = 0.5
+	}
+	san_tolerance_of_the_jews = {
+		tolerance_heathen = 2
+		religious_unity = 0.1
+	}
+	san_refuge_of_the_unification = {
+	    prestige = 1
+	}
+}
