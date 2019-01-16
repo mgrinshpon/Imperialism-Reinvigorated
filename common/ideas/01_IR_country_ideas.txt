@@ -3144,30 +3144,29 @@ SAN_ideas = {
 		tag = SAN
 	}
 	free = yes		#will be added at load.
-
-	san_the_arengo = {
+	SAN_the_arengo = {
 		republican_tradition = 1
 	}
-	san_mounte_titanio = {
+	SAN_mounte_titano = {
 		defensiveness = 0.25
 		fort_maintenance_modifier = -0.1
 	}
-	san_sammaranese_renaissance = {
+	SAN_sammaranese_renaissance = {
 		technology_cost = -0.05
 		build_cost = -0.05
 	}
-	san_the_papal_alliance = {
+	SAN_the_papal_alliance = {
 		papal_influence = 1
 		diplomatic_reputation = 1
 	}
-	san_fiercly_independent = {
+	SAN_fiercly_independent = {
 		enemy_core_creation = 0.5
 	}
-	san_tolerance_of_the_jews = {
+	SAN_tolerance_of_the_jews = {
 		tolerance_heathen = 2
 		religious_unity = 0.1
 	}
-	san_refuge_of_the_unification = {
+	SAN_refuge_of_the_unification = {
 	    prestige = 1
 	}
 }

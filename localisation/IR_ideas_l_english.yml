@@ -1667,9 +1667,19 @@
  SAN_ideas_start: "Sammarinese Traditions"
  SAN_ideas_bonus: "Sammarinese Ambitions"
  SAN_the_arengo: "The Arengo"
- SAN_the_arengo_desc: "Based on the Roman Senate, the Arengo is a governmental assembly composed of the heads of each influential family. We must reform our goverment while maintaining our thousand years of republican history."
- SAN_mounte_titanio: ""
- SAN_mounte_titanio_desc: ""
+ SAN_the_arengo_desc: "Based on the Roman Senate, the Arengo is a governmental assembly composed of the heads of each influential family. We must reform our goverment while maintaining our thousand-plus years of Republican history."
+ SAN_mounte_titano: "The Towers of San Marino"
+ SAN_mounte_titano_desc: "Our founder, Saint Marinus, built a monastery on one of the three peaks of Mounte Titano. Though it no longer stands, in its place are the Guaita, the Cesta, and the Montale- three fortresses on the three peaks which guard Sammarinese freedom from the turbulence of the Italian peninsula."
+ SAN_sammaranese_renaissance: "Sammarinese Renaissance"
+ SAN_sammaranese_renaissance_desc: "All around us, the flowering of the renaissance can be felt."  # TODO This sucks
+ SAN_the_papal_alliance: "The Papal Alliance"
+ SAN_the_papal_alliance_desc: ""
+ SAN_fiercly_independent: "Fiercly Independant"
+ SAN_fiercly_independent_desc: "Fiercly Independant"
+ SAN_tolerance_of_the_jews: "Tolerant Society"
+ SAN_tolerance_of_the_jews_desc: ""
+ SAN_refuge_of_the_unification: "Free Thinker's Refuge"
+ SAN_refuge_of_the_unification_desc: "As the peninsula became embroiled in rebellion, with many Italians desiring a true Italian state, San Marino became a place of refuge for those who spoke the loudest."
   SAN_sammaranese_renaissance = {
     technology_cost = -0.05
     build_cost = -0.05
