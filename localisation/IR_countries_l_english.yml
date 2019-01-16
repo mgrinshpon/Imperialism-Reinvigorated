@@ -415,6 +415,8 @@
  PIE_ADJ: "Piedmontese"
  CLB: "Calabria"
  CLB_ADJ: "Calabrian"
+ SAN: "San Marino"
+ SAN_ADJ: "Sammarinese"
 
  #Eastern Europe
  PDL: "Podolia"

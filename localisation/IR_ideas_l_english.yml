@@ -1667,37 +1667,19 @@
  SAN_ideas_start: "Sammarinese Traditions"
  SAN_ideas_bonus: "Sammarinese Ambitions"
  SAN_the_arengo: "The Arengo"
- SAN_the_arengo_desc: "Based on the Roman Senate, the Arengo is a governmental assembly composed of the heads of each influential family. We must reform our goverment while maintaining our thousand-plus years of Republican history."
- SAN_mounte_titano: "The Towers of San Marino"
- SAN_mounte_titano_desc: "Our founder, Saint Marinus, built a monastery on one of the three peaks of Mounte Titano. Though it no longer stands, in its place are the Guaita, the Cesta, and the Montale- three fortresses on the three peaks which guard Sammarinese freedom from the turbulence of the Italian peninsula."
+ SAN_the_arengo_desc: "As the Roman Empire fell, the citizens of San Marino banded together for mutual protection, first under Saint Marinus in 301 A.D., then under the Arengo, a council of heads of families, just as the Patres of the first Roman Republic. With the blessings and guidance of The Pope, we have reformed our government to have two Captain-Regents elected from an elected Parliment, just as the Consuls of the Senate of Rome over a thousand years ago. Though we march ever onwards to modernity, we will never forget our thousand-plus years of Republican history."
+ SAN_mounte_titano: "Towers of San Marino"
+ SAN_mounte_titano_desc: "Our founder, Saint Marinus, built a monastery on one of the three peaks of Mounte Titano. Though it no longer stands, in its place are the Guaita, the Cesta, and the Montale- the three fortresses on our three peaks which guard Sammarinese freedom from the turbulence of the Italian peninsula."
  SAN_sammaranese_renaissance: "Sammarinese Renaissance"
  SAN_sammaranese_renaissance_desc: "All around us, the flowering of the renaissance can be felt."  # TODO This sucks
  SAN_the_papal_alliance: "The Papal Alliance"
- SAN_the_papal_alliance_desc: ""
+ SAN_the_papal_alliance_desc: "San Marino has always enjoyed both close relations and the blessings of the Holy Father. He has guided us both spiritually and administratively and we, in turn, have supported him both diplomatically and militarily. Let us continue to do so to our mutual benefit."
  SAN_fiercly_independent: "Fiercly Independant"
  SAN_fiercly_independent_desc: "Fiercly Independant"
  SAN_tolerance_of_the_jews: "Tolerant Society"
- SAN_tolerance_of_the_jews_desc: ""
+ SAN_tolerance_of_the_jews_desc: "From the founding of this fair country, San Marino has always been a refuge for those seeking safety. Our country's motto is 'Libertas'- Liberty. We are one of the only countries in Europe to not have its Jewish populace live in ghettos. Let us embrace our differences so that we may form a stronger, more inclusive society."
  SAN_refuge_of_the_unification: "Free Thinker's Refuge"
  SAN_refuge_of_the_unification_desc: "As the peninsula became embroiled in rebellion, with many Italians desiring a true Italian state, San Marino became a place of refuge for those who spoke the loudest."
-  SAN_sammaranese_renaissance = {
-    technology_cost = -0.05
-    build_cost = -0.05
-  }
-  SAN_the_papal_alliance = {
-    papal_influence = 1
-    diplomatic_reputation = 1
-  }
-  SAN_fiercly_independent = {
-    enemy_core_creation = 0.5
-  }
-  SAN_tolerance_of_the_jews = {
-    tolerance_heathen = 2
-    religious_unity = 0.1
-  }
-  SAN_refuge_of_the_unification = {
-      prestige = 1
-  }
 
  #more will be added later, reusing vanilla stuff right now
  free_city_ideas:0 "Free City Ideas"

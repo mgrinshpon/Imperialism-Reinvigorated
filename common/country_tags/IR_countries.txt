@@ -120,6 +120,7 @@ LMB = "countries/Lombardy.txt"
 LGA = "countries/Liguria.txt"
 TSI = "countries/TwoSicilies.txt"
 TTN = "countries/Tortona.txt"
+SAN = "countries/SanMarino.txt"
 
 #Ruthenia
 PDL = "countries/Podolia.txt"
